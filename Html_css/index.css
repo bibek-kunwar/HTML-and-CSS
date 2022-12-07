@@ -1,0 +1,40 @@
+h1 {
+  color: red;
+  background-color: black;
+}
+
+p {
+  color: blue;
+  background-color: yellow;
+}
+
+.bgimg {
+  background-image: url('../images/shadoow.jpg');
+  height: 300px;
+  width: 300px;
+
+}
+
+.pseudo_class h2:hover {
+
+  color: red;
+}
+
+.pseudo_class h4:hover {
+  color: cornflowerblue;
+}
+
+.pseudo_class1 h1:active {
+  color: green;
+}
+  	#main {
+  	  background-image: radial-gradient(black, yellow, green, blue);
+  	}
+
+  	.hello {
+  	  text-align: center;
+  	  font-size: 40px;
+  	  color: white;
+  	  font-weight: bold;
+  	  padding: 100px;
+  	}
